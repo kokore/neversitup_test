@@ -18,4 +18,4 @@ const permutations = (words) => {
     return [... new Set(result)];
 }
 
-export default permutations
+module.exports = permutations
